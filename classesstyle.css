@@ -1,0 +1,33 @@
+body{
+	
+	
+	text-align: center;
+	position: center;
+	background-size: cover;
+}
+h1{
+	font-size: 70px;
+	color: 191970;
+}
+h2{
+	font-size: 40px;
+	color: CD853F;
+}
+h3{
+	font-size: 40px;
+	color: 800000;
+}
+footer{
+	
+	background-color: #333;
+	text-align: center;
+	padding: 0;
+	margin-top: 4%;
+	width: 100%;
+
+}
+p{
+	margin-right: 50px;
+	margin-left: 50px;
+	font-size: 30px;
+}

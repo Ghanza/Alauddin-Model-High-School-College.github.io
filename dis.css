@@ -1,0 +1,28 @@
+
+
+h1{
+	font-size: 70px;
+	color: 191970;
+	text-align: center;
+}
+h2{
+	font-size: 40px;
+	color: auto;
+}
+p{
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 70px;
+margin-left: 30px;
+font-size: 20px;
+}
+h6{
+	margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 70px;
+margin-left: 30px;
+font-size: 18px;
+}
+ul{
+	margin-left: 50px;
+}

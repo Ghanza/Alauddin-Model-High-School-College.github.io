@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(IMG.png);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: rgb(0,0,100);
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+
+.menu-bar .fa
+{
+	margin-right: 8px;
+
+}
+.sub-menu-1
+{
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display: block;
+margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+h1{
+	font-size: 40px;
+font-family: 'Ultra', serif;
+color: 006400;
+}
+
+h4{
+	font-family: 'Dancing Script', cursive;
+	color: 808000;
+	font-size: 30px;
+}
+
+.btn-1{
+position: relative;	
+display: inline-block;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-decoration: none;
+font-size: 24px;
+overflow: hidden;
+transition: 0.2s;
+padding: 0;
+color: #2196f3;
+padding: 15px 30px;
+background-color: 8FBC8F;
+text-decoration: none;
+font-size: 15px;
+overflow: hidden;
+transition: 0.2s;
+	
+
+}
+.btn-1:hover{
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.btn-2{
+position: relative;	
+display: inline-block;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-decoration: none;
+font-size: 24px;
+overflow: hidden;
+transition: 0.2s;
+padding: 0;
+color: #2196f3;
+padding: 15px 30px;
+background-color: 9370DB;
+text-decoration: none;
+font-size: 15px;
+overflow: hidden;
+transition: 0.2s;
+	
+
+}
+.btn-2:hover{
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.btn-3{
+position: relative;	
+display: inline-block;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-decoration: none;
+font-size: 24px;
+transition: 0.2s;
+padding: 0;
+color: #2196f3;
+padding: 15px 30px;
+background-color: 00CED1;
+text-decoration: none;
+font-size: 15px;
+overflow: hidden;
+transition: 0.2s;
+	
+
+}
+.btn-3:hover{
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+footer{
+    background: 6495ED;
+	text-align: center;
+	padding: 1.2rem;
+	margin-top: 4%;
+
+}
+
+
+
+
+
+
+
+
